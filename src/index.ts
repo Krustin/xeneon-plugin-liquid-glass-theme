@@ -2,11 +2,10 @@ import type { XeneonPlugin, PluginAPI } from './types';
 import { themeDef } from './themes/sample';
 
 /**
- * Theme Plugin — registers a single custom theme.
+ * Liquid Glass Theme — frosted translucent surfaces with luminous refractive accents.
  *
- * The theme provides both dark and light color palettes
- * using OKLCH color format. Users can select it in
- * Settings > Appearance > Theme.
+ * Provides both dark and light palettes using OKLCH color format.
+ * Select it in Settings > Appearance > Theme.
  */
 export const plugin: XeneonPlugin = {
   async onload(api: PluginAPI) {

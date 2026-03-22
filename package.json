@@ -1,8 +1,8 @@
 {
-  "name": "xeneon-plugin-starter-theme",
-  "version": "0.1.0",
-  "description": "Theme starter template for Xeneon Touch UI plugins",
-  "author": "Your Name",
+  "name": "xeneon-plugin-liquid-glass-theme",
+  "version": "1.0.0",
+  "description": "A frosted glass theme with translucent surfaces and luminous refractive accents for Xeneon Touch UI",
+  "author": "Justin Loose",
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
