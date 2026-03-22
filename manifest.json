@@ -1,0 +1,11 @@
+{
+  "id": "yourname.my-theme",
+  "name": "My Theme",
+  "version": "0.1.0",
+  "description": "A theme plugin template for Xeneon Touch UI",
+  "author": "Your Name",
+  "main": "dist/index.js",
+  "platforms": ["win32", "darwin", "linux"],
+  "keywords": ["theme"],
+  "license": "MIT"
+}
