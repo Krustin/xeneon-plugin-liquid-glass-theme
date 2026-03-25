@@ -215,6 +215,8 @@ export interface ThemeColors {
   colors: Record<string, string>;
   /** Optional shadow overrides */
   shadows?: Record<string, string>;
+  /** Optional design token overrides (surface, overlay, widget chrome, etc.) */
+  tokens?: Record<string, string>;
 }
 
 /** Theme registration provided by a plugin */

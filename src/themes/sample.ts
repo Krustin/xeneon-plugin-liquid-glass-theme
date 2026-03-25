@@ -65,6 +65,18 @@ export const themeDef: PluginThemeRegistration = {
       warning: 'oklch(0.78 0.15 80)',
       info: 'oklch(0.7 0.14 230)',
     },
+    // Design tokens — frosted glass surfaces with translucent overlays
+    tokens: {
+      'surface-blur': '12px',           // Frosted glass backdrop blur
+      'surface-saturation': '1.2',      // Boosted saturation through glass
+      'popover-blur': '20px',           // Heavy frosted popovers
+      'overlay-opacity': '0.6',         // Lighter overlays — show glass beneath
+      'overlay-blur': '12px',           // Strong backdrop blur on dialogs
+      'overlay-opacity-heavy': '0.75',  // Still lighter than default
+      'widget-shadow': '0 4px 24px -4px oklch(0.15 0.06 200 / 0.5), 0 1px 4px oklch(0 0 0 / 0.3)',
+      'widget-shadow-hover': '0 8px 40px -6px oklch(0.12 0.06 200 / 0.6), 0 2px 8px oklch(0 0 0 / 0.3)',
+      'dialog-shadow': '0 24px 60px -8px oklch(0.1 0.06 200 / 0.6), 0 4px 12px oklch(0 0 0 / 0.3)',
+    },
     shadows: {
       // Teal-tinted glass glow beneath panels
       card: '0 4px 30px -4px oklch(0.15 0.06 200 / 0.5), 0 1px 4px oklch(0 0 0 / 0.35), inset 0 1px 0 oklch(0.35 0.04 200 / 0.15)',
@@ -119,6 +131,18 @@ export const themeDef: PluginThemeRegistration = {
       success: 'oklch(0.55 0.17 155)',
       warning: 'oklch(0.62 0.16 75)',
       info: 'oklch(0.55 0.15 230)',
+    },
+    // Light mode — daylight through frosted glass
+    tokens: {
+      'surface-blur': '12px',
+      'surface-saturation': '1.15',
+      'popover-blur': '16px',
+      'overlay-opacity': '0.5',
+      'overlay-blur': '10px',
+      'overlay-opacity-heavy': '0.65',
+      'widget-shadow': '0 3px 24px -3px oklch(0.55 0.06 200 / 0.22), 0 1px 5px oklch(0 0 0 / 0.08)',
+      'widget-shadow-hover': '0 8px 40px -6px oklch(0.45 0.06 200 / 0.3), 0 2px 8px oklch(0 0 0 / 0.1)',
+      'dialog-shadow': '0 24px 60px -8px oklch(0.4 0.06 200 / 0.3), 0 4px 12px oklch(0 0 0 / 0.08)',
     },
     shadows: {
       // Prominent teal-tinted glass glow — frosted panels catching daylight
